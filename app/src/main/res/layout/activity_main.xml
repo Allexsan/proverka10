@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/green"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="26dp"
+            android:gravity="top"
+            android:text="@string/title"
+            android:textAppearance="@style/title"
+            android:textColor="@color/white"
+            android:textSize="28sp" />
+
+        <View
+            android:id="@+id/topbar"
+            android:layout_width="370dp"
+            android:layout_height="85dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="-57dp"
+            android:background="#00000000" />
+
+        <View
+            android:id="@+id/avatar"
+            android:layout_width="84dp"
+            android:layout_height="71dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="290dp"
+            android:layout_marginTop="-79dp"
+            android:background="@drawable/avatar_1"
+            android:visibility="visible" />
+
+        <View
+            android:id="@+id/alarm"
+            android:layout_width="367dp"
+            android:layout_height="58dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="73dp"
+            android:paddingLeft="43dp" />
+
+        <TextView
+            android:id="@+id/some_id"
+            android:layout_width="wrap_content"
+            android:layout_height="58dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="-59dp"
+            android:gravity="top"
+            android:text="@string/some_id"
+            android:textAppearance="@style/some_id"
+            android:textColor="@color/white"
+            android:textSize="50sp" />
+
+
+        <View
+            android:id="@+id/rectangle_1"
+            android:layout_width="95dp"
+            android:layout_height="48dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="283dp"
+            android:layout_marginTop="-54dp"
+            android:background="@drawable/rectangle_1"
+            android:baselineAligned="false" />
+
+        <Switch
+            android:id="@+id/ellipse_2"
+            android:layout_width="62dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="295dp"
+            android:layout_marginTop="-38dp" />
+
+        <TextView
+            android:id="@+id/some_id1"
+            android:layout_width="wrap_content"
+            android:layout_height="71dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="80dp"
+            android:gravity="top"
+            android:text="@string/some_id1"
+            android:textAppearance="@style/some_id"
+            android:textColor="@color/white"
+            android:textSize="58dp" />
+        <View
+            android:id="@+id/alarm1"
+            android:layout_width="367dp"
+            android:layout_height="71dp"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentTop="false"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="-71dp" />
+
+        <View
+            android:id="@+id/predsf"
+            android:layout_width="96dp"
+            android:layout_height="48dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="281dp"
+            android:layout_marginTop="-60dp"
+            android:background="@drawable/preset" />
+
+        <Switch
+            android:id="@+id/ellipse_23"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="295dp"
+            android:layout_marginTop="-36dp" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="312dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="215dp"
+            android:text="@string/some_id2"
+            android:textColor="@color/white"
+            android:background="@color/white_green"/>
+
+        <View
+            android:id="@+id/rectangle_6"
+            android:layout_width="288dp"
+            android:layout_height="72dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="81dp"
+            android:background="@drawable/rectangle_6"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="95dp"
+            android:layout_marginTop="-60dp"
+            android:background="@drawable/image"/>
+
+        <TextView
+            android:id="@+id/list"
+            android:layout_width="18dp"
+            android:layout_height="13dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="-2dp"
+            android:text="@string/list"
+            android:textSize="11sp"
+            android:textColor="@color/red_100"
+            android:textAppearance="@style/list"
+            android:gravity="top"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="135dp"
+            android:layout_marginTop="-44dp"
+            android:background="@drawable/time"/>
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="13dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="138dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="-2dp"
+            android:text="@string/time"
+            android:textSize="11sp"
+            android:textColor="@color/green"
+            android:textAppearance="@style/list"
+            android:gravity="top"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="185dp"
+            android:layout_marginTop="-44dp"
+            android:background="@drawable/calend"/>
+        <TextView
+            android:id="@+id/calend"
+            android:layout_width="wrap_content"
+            android:layout_height="13dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="180dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="-2dp"
+            android:text="@string/calend"
+            android:textSize="11sp"
+            android:textColor="@color/red_100"
+            android:textAppearance="@style/list"
+            android:gravity="top"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="-44dp"
+            android:background="@drawable/setting"/>
+        <TextView
+            android:id="@+id/setting"
+            android:layout_width="wrap_content"
+            android:layout_height="13dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="240dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="-2dp"
+            android:text="@string/setting1"
+            android:textSize="11sp"
+            android:textColor="@color/red_100"
+            android:textAppearance="@style/list"
+            android:gravity="top"
+            />
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

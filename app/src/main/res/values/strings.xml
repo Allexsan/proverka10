@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title">Будильник</string>
+    <string name="some_id">07:30</string>
+    <string name="some_id1">8:00</string>
+    <string name="some_id2">Добавить будильник</string>
+    <string name="list">List</string>
+    <string name="lis">List</string>
+    <string name="time">Alarm</string>
+    <string name="calend">Calendary</string>
+    <string name="setting1">Setting</string>
+</resources>
